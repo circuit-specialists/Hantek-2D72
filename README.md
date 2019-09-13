@@ -17,9 +17,6 @@
 4. Connect to Target, or press enter
 5. Click save file button (File should be 512kB)
 
-## Firmware Mod:
-Extract the FW, open it with a Hex editor and look for the device serial number in dump. It will end with "-40" just change it to "-70" save and reprogram the flash memory. Now your handheld has a maximum BW of 70MHz.
-
 ## AWG and DMM Hardware Mod:
 fit DAC902 at position U12
 remove R315
