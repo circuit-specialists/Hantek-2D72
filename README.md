@@ -1,5 +1,5 @@
 # Hantek-2D72
- Hantek 2000 series, 2D72 firmware, tools, and other information
+ Hantek 2000 series, 2D72 firmware, tools, unbrick Hantek 2D72 and other information
 
 
 ## Parts:
