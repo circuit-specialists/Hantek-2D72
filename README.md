@@ -12,7 +12,7 @@
 
 ## Firmware Dump:
 1. Download ST-Link Utility
-2. Connect ST-Link V2 to [software debug ports](Software Debug Ports.jpg) on main circuit board (GND, SW_CLK, SW_DAT)
+2. Connect ST-Link V2 to [software debug ports]("Software Debug Ports.jpg") on main circuit board (GND, SW_CLK, SW_DAT)
 3. In ST-LINK Utility, specify Address: 0x08000000, with the size : 0x80000
 4. Connect to Target, or press enter
 5. Click save file button (File should be 512kB)
@@ -34,7 +34,7 @@ fit BAV99
 change 0 Ohms resistor at the output of the OpAmp to 50 Ohms
 change 0 Ohms resistor at pin 3 of OpAmp to 150 Ohms
 change 0 Ohms feedback resistor (at OpAmp left side) to 560 Ohms
-[Mod Picture](AWG Mod.jpg)
+[Mod Picture]("AWG Mod.jpg")
 
 ## DFU Mode:
 Press F1 and power on the oscilloscope at the same time to enter the programming mode.
