@@ -18,23 +18,23 @@
 5. Click save file button (File should be 512kB)
 
 ## AWG and DMM Hardware Mod:
-fit DAC902 at position U12
-remove R315
-R63, R70 = 50 Ohms (R63 was already fitted in my device)
-C70, C71 = 20 pF (C71 was already fitted in my device)
-fit R65 = 560 Ohm
-Change R61 from 1,78 kOhm to 2,2 kOhm as the AWG amplitude of my device was too high with the stock resistor
+* fit DAC902 at position U12
+* remove R315
+* R63, R70 = 50 Ohms (R63 was already fitted in my device)
+* C70, C71 = 20 pF (C71 was already fitted in my device)
+* fit R65 = 560 Ohm
+* Change R61 from 1,78 kOhm to 2,2 kOhm as the AWG amplitude of my device was too high with the stock resistor
 
-In the frontend section (see picture from reply #56):
-fit EL5166
-fit BAV99
-change 0 Ohms resistor at the output of the OpAmp to 50 Ohms
-change 0 Ohms resistor at pin 3 of OpAmp to 150 Ohms
-change 0 Ohms feedback resistor (at OpAmp left side) to 560 Ohms
+* In the frontend section (see picture from reply #56):
+* fit EL5166
+* fit BAV99
+* change 0 Ohms resistor at the output of the OpAmp to 50 Ohms
+* change 0 Ohms resistor at pin 3 of OpAmp to 150 Ohms
+* change 0 Ohms feedback resistor (at OpAmp left side) to 560 Ohms
 [Mod Picture](AWG-Mod.jpg)
 
 ## DFU Mode:
-Press F1 and power on the oscilloscope at the same time to enter the programming mode.
-Connect the oscilloscope to the computer and open the device manager of the computer.
-Find a new device and right click it to update the driver. The driver files are in this path: STMicroelectronics\Software\DfuSe v3.0.5\Bin\Driver.
-Open DfuSe Demo software, click "Choose" to select the firmware (***.dfu), and click "Upgrade" to update the firmware. After updated, click "Leave DFU mode" to exit the programming mode.
+* Press F1 and power on the oscilloscope at the same time to enter the programming mode.
+* Connect the oscilloscope to the computer and open the device manager of the computer.
+* Find a new device and right click it to update the driver. The driver files are in this path: STMicroelectronics\Software\DfuSe v3.0.5\Bin\Driver.
+* Open DfuSe Demo software, click "Choose" to select the firmware (***.dfu), and click "Upgrade" to update the firmware. After updated, click "Leave DFU mode" to exit the programming mode.
